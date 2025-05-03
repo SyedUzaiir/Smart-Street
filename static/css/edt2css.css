@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #27272b;
+    padding: 20px;
+    text-align: center; /* Center text and buttons */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+}
+
+.heading {
+  padding-top: 90px;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.paragraph {
+    color: #fff;
+    margin-bottom: 120px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Align buttons in a column */
+    align-items: center;    /* Center buttons horizontally */
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    padding: 50px 115px;
+    margin: 10px 0; /* Margin for vertical spacing */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1 {
+    background-color: #fff;
+    border: none;
+    padding: 50px 120px;
+    margin: 10px 0; /* Margin for vertical spacing */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+.btn1:hover {
+    background-color: #ccc;
+}

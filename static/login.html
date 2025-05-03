@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container flex justify-center items-center min-h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+            <h2 class="text-2xl font-bold text-blue-900 mb-6 text-center">Login</h2>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">Username</label>
+                    <input class="input-field" type="text" id="username" placeholder="Enter your username">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+                    <input class="input-field" type="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="btn" type="button" onclick="window.location.href='complain.html'">Sign In</button>
+
+                    <a class="inline-block align-baseline font-bold text-sm text-blue-900 hover:text-blue-700" href="#">
+                        Forgot Password?
+                    </a>
+                </div>
+            </form>
+            <div class="mt-6 text-center">
+                <p class="text-gray-700">Don't have an account? <a class="font-bold text-blue-900 hover:text-blue-700" href="#">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

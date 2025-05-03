@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #27272b;
+    padding: 20px;
+    text-align: center; /* Center text and buttons */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+}
+
+.heading {
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.paragraph {
+    color: #fff;
+    margin-bottom: 100px;
+}
+.paragraph1 {
+    color: #fff;
+}
+.btn {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 480px;
+}
+.btn1 {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn2 {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn3 {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn4 {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn5 {
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 50px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.button-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 10px; /* Space between buttons */
+    justify-items: center; /* Center buttons in their grid cells */
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+.btn1:hover {
+    background-color: #ccc;
+}
+.btn2:hover {
+    background-color: #ccc;
+}
+.btn3:hover {
+    background-color: #ccc;
+}
+.btn4:hover {
+    background-color: #ccc;
+}
+.btn5:hover {
+    background-color: #ccc;
+}
