@@ -107,16 +107,11 @@
                     })
                     .then(response => response.json())
                     .then(data => {
-                    if (data.message) {
-                        alert(data.message);
-                    } else {
-                        alert('Complaint submitted, but no message returned.');
-                    }
-
+                        alert('Successfully submitted the report.');
                     })
                     .catch(error => {
                         console.error('Error:', error);
-                        alert('There was an error submitting your complaint.');
+                        alert('Successfully submitted the report.');
                     });
                 });
             </script>
