@@ -34,6 +34,9 @@
 2. **Open `index.html` in your browser**
 
 3. **[Optional]** Install dependencies if any (add instructions if using a framework or build tool)
+4. **Visit the hosted app**:  
+   Open the GitHub Pages link in your browser:  
+   [https://syeduzaiir.github.io/Smart-Street/](https://syeduzaiir.github.io/Smart-Street/)
 
 ---
 
